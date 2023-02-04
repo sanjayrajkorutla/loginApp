@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.column{
+    flex-direction: column;
+    display: flex;
+    background-image: linear-gradient(#2b2c49,#b5b9ff);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width:40%;
+    height:40%;
+}
+h1{
+    color:white;
+}
